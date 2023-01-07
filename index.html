@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Nevareth is a personal portfolio for individual projects completion provided by Progate.">
+	<meta name="keywords" content="Frontend, HTML, CSS, JavaScript, React, Git">
+	<meta name="author" content="Segara Biruan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NEVARETH</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="shortcut icon" href="img/nevareth.png" type="image/x-icon">
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="path-to-the-image"/>
+	<meta property="og:url" content="https://nevareth-id.github.io/nevareth-id/"/>
+	<meta property="og:title" content="Neverath | Project & Portofolio"/>
+	<meta property="og:description" content="Neverath is a personal portfolio for individual projects completion provided by Progate"/> 
+</head>
+<body>
+
+	<header>
+		<div class="header-logo">NEVARETH</div>
+		<nav>
+			<ul id="menuList">
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">My Project</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<img src="img/whitemenu.png" class="menu-icon" onclick="togglemenu()">
+		</div>
+	</header>
+
+	<div class="top-wrapper">
+		<div class="container">
+			<h1>NEVARETH<span>.</span></h1>
+			<h2>MY PORTOFOLIO</h2>
+			<img src="img/ninjaKen.png">
+		</div>
+	</div>
+	<div class="message">
+		<div class="container">
+			<h3>About Me</h3>
+			<h4>Introducing you! Neva as the beginner-developer behind this website. I am going to be a safe place to go and to everyone. So please don't hesitate to hit me up to talk about anything and your favorite topics! Make yourself as comfortable.</h4>
+		</div>
+	</div>
+	<div class="my-project">
+		<div class="container">
+			<div class="heading">
+				<h3>My Project</h3>
+			</div>
+			<div class="projects">
+				<div class="project">
+					<div class="project-icon">
+						<img src="img/gambarSatu.png">
+					</div>
+					<p class="project-name">Project 1</p>
+				</div>
+				<div class="project">
+					<div class="project-icon">
+						<img src="img/gambarDua.png">
+					</div>
+					<p class="project-name">Project 2</p>
+				</div>
+				<div class="project">
+					<div class="project-icon">
+						<img src="img/gambarTiga.png">
+					</div>
+					<p class="project-name">Project 3</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="contact-me">
+		<div class="container">
+			<div class="heading">
+				<h3>Contact Me</h>
+			</div>
+			<form>
+				<div class="email-box">
+					<input type="email" placeholder="Email(Required)">
+				</div>
+				<div class="message-box">
+					<textarea rows="5" placeholder="Message(Required)"></textarea>
+				</div>
+				<div class="btn">
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="footer-logo">NEVARETH</div>
+			<div class="footer-list">
+				<ul>
+					<li href="#">About Me</li>
+					<li href="#">My Project</li>
+					<li href="#">Contact Me</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	 
+	<script>
+		var menuList = document.getElementById("menuList")
+		menuList.style.maxHeight="0px"
+		function togglemenu(){
+			if(menuList.style.maxHeight == "0px")
+				{
+					menuList.style.maxHeight = "130px" ;
+				}
+			else
+			{
+				menuList.style.maxHeight = "0px"
+			}
+		}
+	</script>
+</body>
+</html>

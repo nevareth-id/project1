@@ -1,0 +1,27 @@
+/*buat hp*/
+@media screen and (max-width:700px) {
+    
+    nav {
+        float: right;
+    }
+    nav ul {
+        width: 100%;
+        background: linear-gradient(rgb(212, 212, 212), rgb(146, 146, 146));
+        position: absolute;
+        top: 50px;
+        right: 0;
+        z-index: 5;
+        float: right;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: white ;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
